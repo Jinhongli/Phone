@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="reset.css">
+	<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-1.11.0.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<div id="phone" class="">
+		<div id="mic"></div>
+		<div id="screen">
+			<div id="panel">
+				<span class="hour"></span>:<span class="minutes"></span>
+				<span class="battery" title="剩余电量:65%">
+					<span class="left"></span>
+					<span class="right"></span>
+				</span>
+				<span class="signal">
+					<span class="glyphicon glyphicon-signal"></span>
+				</span>
+			</div>
+
+			<div id="pages">
+				<div class="page active">
+					<div id="time" class="noselect">
+						<p class="time"><span class="hour"></span>:<span class="minutes"></span></p><br>
+						<p class="year"><span class="month"></span>月<span class="date"></span>日<span class="weekday"></span></p>
+					</div>
+					<div class="app-block">
+						<a href="#"><img src="img/icon/apps/calculator.png" alt="phone"><span>Phone</span></a>
+						<a href="#"><img src="img/icon/apps/calendar.png" alt="contacts"><span>Contacts</span></a>
+						<a href="#"><img src="img/icon/apps/camera.png" alt="message"><span>Message</span></a>
+						<a href="#"><img src="img/icon/apps/setting.png" alt="safari"><span>Safari</span></a>
+						<a href="#" id="weather"><img src="img/icon/apps/weather.png" alt="weather"><span>Weather</span></a>
+						<a href="#"><img src="img/icon/apps/photos.png" alt="photos"><span>Photos</span></a>
+						<a href="#"><img src="img/icon/apps/youtube.png" alt="youtube"><span>Youtube</span></a>
+						<a href="#" id="wechat"><img src="img/icon/apps/wechat.png" alt="wechat"><span>Wechat</span></a>
+					</div>
+				</div>
+				<div class="page" id="page2">
+					<div class="app-block">
+						<a href="#"><img src="img/icon/apps/maps.png" alt="maps"><span>Maps</span></a>
+						<a href="#"><img src="img/icon/apps/angrybirds.png" alt="angrybirds"><span>Agbirds</span></a>
+						<a href="#"><img src="img/icon/apps/flipboard.png" alt="flipboard"><span>Flipboard</span></a>
+						<a href="#"><img src="img/icon/apps/minecraft.png" alt="minecraft"><span>Minecraft</span></a>
+						<a href="#"><img src="img/icon/apps/plantszombies.png" alt="zombies"><span>Zombies</span></a>
+						<a href="#"><img src="img/icon/apps/gmail.png" alt="gmail"><span>Gmail</span></a>
+						<a href="#"><img src="img/icon/apps/chrome.png" alt="chrome"><span>Chrome</span></a>
+						<a href="#"><img src="img/icon/apps/videos.png" alt="videos"><span>Videos</span></a>
+					</div>
+				</div>
+
+			</div>
+			<div id="dock">
+				<a href="#"><img src="img/icon/phone.png" alt="phone"></a>
+				<a href="#"><img src="img/icon/contacts.png" alt="contacts"></a>
+				<a href="#"><img src="img/icon/message.png" alt="message"></a>
+				<a href="#"><img src="img/icon/safari.png" alt="safari"></a>
+			</div>
+
+		</div>
+
+
+		<div id="buttons">
+			<ul>
+				<li id="back"><span class="glyphicon glyphicon-chevron-left"></span></li>
+				<li id="home"><span class="glyphicon glyphicon-home"></span></li>
+				<li id="menu"><span class="glyphicon glyphicon-unchecked"></span></li>
+			</ul>
+		</div>
+	</div>
+	<div id="change-color">
+		<label for="bg-black">选择颜色：</label>
+		<button id="bg-black"><span class="glyphicon glyphicon-ok"></span></button>
+		<button id="bg-white"><span></span></button>
+	</div>
+</body>
+</html>
